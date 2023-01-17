@@ -1,8 +1,6 @@
 # Terminal and Git Cheatsheet.
 
-Terminal
-
-Navigating the File System.
+## Terminal Commands.
 
 |Command|Function|
 |-------|--------|
@@ -25,3 +23,14 @@ Navigating the File System.
 |rm|Deletes file.|
 |rm -r|Deletes directory.|
 
+
+## Git Commands
+
+|Command|Function|
+|-------|--------|
+|git init|Short for initialise, sets up Git in this directory.|
+|git add |Adds a change in the working directory to the staging area.|
+|git status |Displays the state of the working directory and the staging area.|
+|git commit -m ""|A snapshot of your Git repository at one point in time.|
+|git remote add origin| Adds a new remote repository to a local git project.|
+|git push -u origin main|Pushes the local branch named "main" to the remote repository named "origin" and also set the local branch to track the remote branch.|
