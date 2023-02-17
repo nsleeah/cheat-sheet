@@ -19,12 +19,12 @@
 |mv|Moves a file.|
 |cp|Copies a file.|
 |cp-r|Copies an entire directory.|
-|**Deleting**|
+|**Deleting Files and Folders**|
 |rm|Deletes file.|
 |rm -r|Deletes directory.|
 
 
-## Git Commands
+## Git Commands.
 
 |Command|Function|
 |-------|--------|
@@ -34,3 +34,12 @@
 |git commit -m ""|A snapshot of your Git repository at one point in time.|
 |git remote add origin| Adds a new remote repository to a local git project.|
 |git push -u origin main|Pushes the local branch named "main" to the remote repository named "origin" and also set the local branch to track the remote branch.|
+|git branch |Checks what branch were on|
+|git branch [branch name]|Creates new branch|
+|q|Exit mode|
+|git merge main | Merges |
+|git checkout [branch name] |Changes branch we are on to branch name|
+|gco main|shortcut|
+|git branch -d [branch name]|Deletes branch|
+|pkill java |-|
+
