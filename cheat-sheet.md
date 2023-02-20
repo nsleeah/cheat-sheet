@@ -42,4 +42,6 @@
 |gco main|shortcut|
 |git branch -d [branch name]|Deletes branch|
 |pkill java |-|
+|gsa|git status shortcut|
+|git checkout -b|create a new branch and switch to it in a single step.|
 
