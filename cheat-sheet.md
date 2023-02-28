@@ -45,3 +45,17 @@
 |gsa|git status shortcut|
 |git checkout -b|create a new branch and switch to it in a single step.|
 
+## Node Commands
+[Node Package Management](https://www.npmjs.com/)
+|Command|Function|
+|-------|--------|
+|npm init|Used to set up a new or existing npm package|
+|npm init -y| The -y flag when passed to npm commands tells the generator to use the defaults instead of asking questions.|
+|npm install [name]|npm install downloads a package and it's dependencies|
+|npm i|Shortcut for npm install|
+|npm install -D [name]|Tells npm to add the package to the project's devDependencies|
+|rm -ref node_modules| Removes node modules, use npm i to return them|
+|npm tests|Run the test command|
+|npm run test:coverage||
+Note always remove node modules when uploading to Github.
+
