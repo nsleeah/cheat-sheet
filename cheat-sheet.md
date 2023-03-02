@@ -10,6 +10,7 @@
 |ls -al|A list of files and folders including hidden files.|
 |cd ~ |Shortcut for the home directory of user.|
 |cd|Allows to move between different directories.|
+|mkcd|how to create a directory using mkdir and cd in one step|
 |**Creating Files and Folders**|
 |mkdir|Creates a directory.|
 |touch|Creates new file.|
